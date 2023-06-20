@@ -1,0 +1,35 @@
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  
+}
+
+.card-image {
+    width: 400px;
+    height: 230px;
+}
+
+.jumbotron {
+    background-image: url('../img/ColumbiaRiver.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 0px;
+}
